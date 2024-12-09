@@ -1,0 +1,88 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #DFF2EB;
+}
+.container{
+    display: flex;
+    min-height: 80vh;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    background-image: url(K-Faded-modified\ \(1\).png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.footer{
+    background-color: #B9E5E8;
+    min-height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+}
+footer{
+    justify-content: center;
+    align-items: center;
+}
+
+
+.playfair-display-heading {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.playfair-display-subHeading {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+  }
+
+.playfair-display-shloka {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+  }
+
+.playfair-display-translationText {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+  }
+
+.generalBody{
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 0.75rem;
+}
+
+.generalBodyForm{
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.searchButton{
+    background-color: #B9E5E8;
+    border-radius: 10px;
+    border-color: black;
+    width: 100px;
+}
+.searchButton:hover{
+    background-color: white;
+    border-color: white;
+}

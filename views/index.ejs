@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bhagavad Gita Quotes</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1 class="playfair-display-heading">Shrimad Bhagavad Gita</h1>
+    <h2 class="playfair-display-subHeading"><%= subHeading %></h2>
+    <h3 class="playfair-display-shloka"><%= quote %></h3>
+    <p class="playfair-display-translationText"><%= translation %></p>
+    <p class="generalBody">Chapter:<%= chapterNumber %> <br> Verse:<%= verseNumber %></p>
+    <br>
+    <br>
+    <form class="generalBodyForm" method="post">
+        <label for="chapterNumber">Chapter Number</label>
+        <input type="number" name="chapter">
+        <label for="verseNumber">Verse Number</label>
+        <input type="number" name="verse">
+        <input type="submit" formaction="/getVerse" value="Search" class="searchButton">
+    </form>
+    </div>
+    <div class="footer generalBody">
+     <footer>
+        <p>©Sannidhya <%= yearNow %>  |  Api: RapidAPI  <%= translator %></p>
+     </footer>
+    </div>
+</body>
+</html>
